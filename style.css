@@ -56,7 +56,7 @@ nav {
   }
   
   aside ul li {
-    margin-top: 20px;
+    margin: 0;
   }
   
   aside a {
@@ -69,13 +69,13 @@ nav {
   }
   
 
-  .nav-sidebar {
+  aside .nav-sidebar {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-  .nav-sidebar ul {
+  aside .nav-sidebar ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,11 +84,21 @@ nav {
     padding: 0;
   }
   
-  .nav-sidebar li {
+  aside .nav-sidebar li {
     list-style: none;
     margin: 0;
     padding: 0;
   }
 
+  .bottom-right-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .bottom-right-image img{
+    width: 680px;
+    height: 609.7px;
+  }
   
   

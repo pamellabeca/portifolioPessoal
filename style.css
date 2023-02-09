@@ -1,0 +1,15 @@
+body{
+    height: hv;
+    width: wv;
+
+}
+p {
+    white-space: nowrap;
+}
+strong{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}

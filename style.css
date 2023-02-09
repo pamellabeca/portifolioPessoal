@@ -38,37 +38,57 @@ nav {
   }
   
   aside {
+    position: fixed;
+    top: 75%;
+    left: 10px;
+    transform: translateY(-50%);
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  aside ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  aside ul li {
+    margin-top: 20px;
+  }
+  
+  aside a {
+    display: block;
+  }
+  
+  aside img {
+    width: 30px;
+    height: 30px;
+  }
+  
+
+  .nav-sidebar {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
-  aside img {
-    margin: 10px 0;
-  }
-
-  .nav-sidebar {
-    height: 100%;
-    width: 60px;
-    line-height: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    padding: 20px 0;
-    text-align: center;
+  
+  .nav-sidebar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-sidebar li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
-  .nav-sidebar img{
-    height: 35px;
-    width: 35px;
-    vertical-align: middle;
-  }
-
-  .nav-sidebar a {
-    display: block;
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    transition: all 0.3s;
-  }
+  
+  

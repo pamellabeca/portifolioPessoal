@@ -4,12 +4,14 @@ body{
     background-color: #1c191a;
 }
 nav {
+    /*position: fixed;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1em;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    z-index: 9999;
   }
   
   .logo {
@@ -93,12 +95,22 @@ nav {
   .bottom-right-image {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 30px;
   }
 
   .bottom-right-image img{
     width: 680px;
     height: 609.7px;
   }
-  
+
+  .bottom-dark-mode {
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+  }
+
+  .bottom-dark-mode img{
+    width: 30px;
+    height: 30px;
+  }
   

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;700;800&display=swap');
 
 body{
     background-color: #1c191a;
@@ -95,7 +95,7 @@ nav {
   .bottom-right-image {
     position: absolute;
     bottom: 0;
-    right: 30px;
+    right: 40px;
   }
 
   .bottom-right-image img{
@@ -106,11 +106,40 @@ nav {
   .bottom-dark-mode {
     position: absolute;
     bottom: 50px;
-    right: 40px;
+    right: 50px;
   }
 
   .bottom-dark-mode img{
     width: 30px;
     height: 30px;
   }
+
+  a:hover{
+    color: #9B1B30;
+  }
+
+  .midiaimg {
+    fill: white;
+    transition: all 0.2s ease-in-out;
+  }
   
+  .midiaimg:hover {
+    transform: scale(1.3);
+    fill: #ffcc33;
+  }
+  
+  .resumo{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position:absolute;
+    bottom: 400px;
+    right: 800px;
+  }
+
+  .resumo h2{
+    font-weight: 300;
+  }
+
+  .resumo p{
+    font-weight: 200;
+  }
